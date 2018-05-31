@@ -22,7 +22,6 @@ public class Seq012 {
 			System.out.println("종료 : 0, 홀수 : 1, 짝수 : 2");
 
 			int sum = 0, temp = 0, count = 0, totalCount = 0;
-			;
 			String result = " ";
 
 			if (strNum > endNum) {

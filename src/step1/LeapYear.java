@@ -20,7 +20,7 @@ public class LeapYear{
 					String result ="평년";
 
 					if((((year%4)==0)||((year%400)==0))&&((year%100)!=0)){
-					result = "윤년";
+						result = "윤년";
 					}
 					System.out.println("결과 : "+year+"은 "+result+"입니다.");
 					break;
