@@ -1,6 +1,15 @@
 package step4;
-
-public class Matrix_7_Triangle {
+/**
+ 이등변 삼각형 만들기
+                   10
+              5   11
+         2   6   12
+    1   3   7   13
+         4   8   14
+              9   15
+                   16
+ * */
+public class Matrix_06_Triangle {
 
 	public static void main(String[] args) {
 		int[][] mtx = new int[7][4];

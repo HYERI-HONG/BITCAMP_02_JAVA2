@@ -1,6 +1,8 @@
 package step4;
-
-public class MatrixBasic {
+/**
+ 왼쪽에서 오른쪽으로
+ * */
+public class MatrixBasic_1 {
 
 	public static void main(String[] args) {
 		int k =0;

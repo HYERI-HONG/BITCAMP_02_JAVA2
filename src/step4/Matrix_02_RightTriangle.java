@@ -1,15 +1,19 @@
 package step4;
-
-public class Matrix_2_RightTriangle {
+/**
+ 오른쪽 직각 삼각형 만들기
+                          1
+                    2    3
+              4    5    6
+        7    8    9   10
+ 11  12  13  14  15
+ * */
+public class Matrix_02_RightTriangle {
 
 	public static void main(String[] args) {
 		int count =0;
 		int[][] mtx = new int[5][5];
 		
 		for(int i=0; i<5; i++) {
-			for(int k=0; k<5-i;k++) {
-				mtx[i][k]=0;
-			}
 			for(int j=4-i; j<5; j++) {
 				count++;
 				mtx[i][j]=count;
