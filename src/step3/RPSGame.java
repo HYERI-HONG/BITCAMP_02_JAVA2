@@ -28,15 +28,6 @@ public class RPSGame {
 					result = "무승부!";
 					same++;
 					break;
-					
-					
-					
-					
-					
-					
-					
-					
-					
 				case 1:
 				case -2:
 					result = "컴퓨터 승리!";
